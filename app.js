@@ -1,12 +1,12 @@
 define('app', [
-        'SQL_Engine/SQL_Engine',
-        'text!table.html',
-        'text!structure.html',
-        'SQL_Engine/SQL_Parser',
-        'SQL_Engine/SQL_DB',
-        'lodash',
-        'text',
-        'jquery'
+        './SQL_Engine/SQL_Engine',
+        './text!table.html',
+        './text!structure.html',
+        './SQL_Engine/SQL_Parser',
+        './SQL_Engine/SQL_DB',
+        './lodash',
+        './text',
+        './jquery'
     ],
     function ( SQL_Engine, tableTemplate, structureTemplate, Parser, SQL_DB, _) {
         'use strict';
