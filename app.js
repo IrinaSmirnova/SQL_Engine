@@ -4,9 +4,9 @@ define('app', [
         './text!structure.html',
         './SQL_Engine/SQL_Parser',
         './SQL_Engine/SQL_DB',
-        './lodash',
-        './text',
-        './jquery'
+        'lodash',
+        'text',
+        'jquery'
     ],
     function ( SQL_Engine, tableTemplate, structureTemplate, Parser, SQL_DB, _) {
         'use strict';

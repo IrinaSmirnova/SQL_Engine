@@ -1,9 +1,9 @@
 require.config({
-    baseUrl: "/CDP_Testing/src",
+    baseUrl: "",
     paths: {
-        'jquery': 'bower_components/jquery/dist/jquery',
-        'lodash': 'bower_components/lodash/lodash',
-        'text': 'bower_components/text/text'
+        'jquery': './bower_components/jquery/dist/jquery',
+        'lodash': './bower_components/lodash/lodash',
+        'text': './bower_components/text/text'
     },
     shim: {
         'jquery': {
